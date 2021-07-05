@@ -11,6 +11,7 @@ h1{
 }
 section{
     display:flex;
+    margin-bottom:50px;
 }
 .half-width{
     width:50%;
@@ -19,7 +20,7 @@ section{
 .half-width img{
     width:80%;
 }
-.hire-button{
+.link-btn{
     text-decoration: none;
     padding:10px 40px;
     background-color: orange;
@@ -30,7 +31,17 @@ section{
 }
 .top-banner{
 
-background-image: url(images/top-banner.png);
-background-repeat:no-repeat;
+    background-image: url(../images/top-banner.png);
+    background-repeat:no-repeat;
 
+}
+.big-dream{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main{
+    width: 250px;
+    background-color: gray;
+    height: 50px;
 }
